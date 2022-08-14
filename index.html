@@ -2,224 +2,249 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Live-Class-Project-12</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
 
+    <link rel="stylesheet" href="styles.css" />
+
+
+
+    <script src="https://kit.fontawesome.com/cc70fa30b0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <!-- Navbar  -->
-        <nav class="navbar">
-
-            <a class="nav-item">Home</a>
-            <a class="nav-item">About Us</a>
-
-            <a class="nav-item">Pages</a>
-            <a class="nav-item">Agent</a>
-            <a class="nav-item">Blog</a>
-            <a class="nav-item">Subscribe</a>
-            <a class="nav-item">Let's Talk</a>
-
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="navBar">
+            <div>
+                <div class="brandLogo">
+                    <img src="./Assets/Logo.png" alt="logo" />
+                </div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">pages</a></li>
+                    <li><a href="/">Agent</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Subscribe</a></li>
+                    <li><button>Let's Talk</button></li>
+                    <li class="menu"><a href="/"><i class="fas fa-bars"></i></a></li>
+                </ul>
+            </div>
         </nav>
 
-        <div class="logo">
-            <img class="logo" src="./assets/Logo.png" width="9%">
-        </div>
-        <!-- Business-Content -->
-        <div class="business-content">
-            <div class="left-section">
-                <img src="./assets/business-content-1.jpg" alt="">
-            </div>
-            <div class="right-section">
-                <h1>Empowering your <br>business with the <br>best solution </h1>
-                <p>We connect your brand & business with your target <br>market in the most desirable,refined, and elvated way <br>possible through the digital medium </p>
-                <div class="btn">
-                    <img src="./assets/message-324.svg" alt="">
-                    <div class="btn-email">
-                        <button>
-                            <p>Enter your email address</p>
-                        </button>
+        <!-- First part-->
+
+        <div class="imageWithTextSection">
+            <div class="container">
+                <div class="leftBox">
+                    <img src="./Assets/business-content-1.jpg" alt="Img" />
+                </div>
+                <div class="rightBox">
+                    <h2>Empowering your Busisness with the best solution</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus incidunt aut amet debitis or sit amet consectetur adipisicing elit. Id accusamus incidunt aut amet debitis.
+                    </p>
+                    <div class="emailBox">
+                        <i class="fas fa-envelope"></i>
+                        <form action="">
+                            <input type="email" placeholder="Enter your email address" />
+                            <button type="submit">Let's Talk</button>
+                        </form>
                     </div>
-                    <div class="btn-talk">
-                        <button>Let's talk</button></div>
-                    </button>
                 </div>
             </div>
         </div>
-    </header>
-    <!-- Target  -->
-    <section class="target">
-        <div class="target-content">
-            <h1>We Connect your business <br>with your target</h1>
-        </div>
-        <div class="target-up">
-            <div class="target-one">
-                <h1>1,093</h1>
-                <p>Finished Project</p>
-            </div>
-            <div class="target-one">
-                <h1>3,355</h1>
-                <p>Enrolled Project</p>
-            </div>
-            <div class="target-one">
-                <h1>40</h1>
-                <p>Team Worker</p>
-            </div>
-            <div class="target-one">
-                <h1>90%</h1>
-                <p>Satisfaction Rate</p>
-            </div>
+        <div class="container">
+            <!-- Counter Part -->
+            <div class="countersection">
+                <h2 class="heading">We Connect your busisness with your target</h2>
 
-        </div>
-        <div class="target-down">
-            <img src="./assets/target-1.jpg" alt="">
-        </div>
-    </section>
-    <!-- Design  -->
-    <section class="design">
-        <div class="design-up">
-            <h1>We have made your <br>care easy for you.</h1>
-        </div>
-        <div class="design-down">
-            <div class="left-design-section">
-                <h1>Effective Website Design <br>and Development</h1>
-                <p>By connecting patients all over the world to the best <br>instructors,Healthycare helping individuals reach their <br>goals and pursue their dreams.</p>
-                <button class="btn-design">
-                    Let's Talk
-                </button>
+                <div class="counterBox">
+                    <div class="box">
+                        <h2>1,093</h2>
+                        <p>Finished Projects</p>
+                    </div>
+                    <div class="box">
+                        <h2>3,355</h2>
+                        <p>Enrolled Projects</p>
+                    </div>
+                    <div class="box">
+                        <h2>40</h2>
+                        <p>Team Worker</p>
+                    </div>
+                    <div class="box">
+                        <h2>90%</h2>
+                        <p>Satisfaction Rate</p>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <img src="./Assets/target-1.jpg" alt="img" />
+                </div>
+
+                <!-- Our Work Part -->
+                <div class="ourWorksection">
+                    <h2 class="heading">We have made your care easy for you</h2>
+
+                    <div class="mainWorkMainBox">
+                        <div class="personBox">
+                            <div class="leftBox">
+                                <h2>Effective Website Design and Development</h2>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur hic illo optio corporis aliquam, iusto at voluptate, in tempora molestias officiis inventore ut velit sunt ipsum officia expedita quos non.
+                                </p>
+                                <button class="letsTalkBtn">Let's Talk</button>
+                            </div>
+                            <div class="rightBox">
+                                <img src="./Assets/design-1.jpg" alt="person" />
+                            </div>
+                        </div>
+                        <div class="personBox oddPerson">
+                            <div class="leftBox">
+                                <h2>Effective Website Design and Development</h2>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur hic illo optio corporis aliquam, iusto at voluptate, in tempora molestias officiis inventore ut velit sunt ipsum officia expedita quos non.
+                                </p>
+                                <button class="letsTalkBtn">Let's Talk</button>
+                            </div>
+                            <div class="rightBox">
+                                <img src="./Assets/digital-1.jpg" alt="person" />
+                            </div>
+                        </div>
+                        <div class="personBox">
+                            <div class="leftBox">
+                                <h2>Effective Website Design and Development</h2>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur hic illo optio corporis aliquam, iusto at voluptate, in tempora molestias officiis inventore ut velit sunt ipsum officia expedita quos non.
+                                </p>
+                                <button class="letsTalkBtn">Let's Talk</button>
+                            </div>
+                            <div class="rightBox">
+                                <img src="./Assets/judge.jpg" alt="person" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Our Team Part -->
+                <div class="ourTeam">
+                    <div class="ourTeamhead">
+                        <h2>Meets Our Great Creative Team</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati necessitatibus atque velit ullam magnam? Facilis harum vel a minus cum.
+                        </p>
+                    </div>
+                    <div class="teamMainSection">
+                        <div class="teamBox">
+                            <div class="marginDiv">
+                                <div class="imageBox">
+                                    <img src="./Assets/team-1-logo.jpg" alt="person" />
+                                </div>
+                                <div class="contentBox">
+                                    <h2>Amera Amanda</h2>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis commodi.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="teamBox">
+                            <div class="marginDiv">
+                                <div class="imageBox">
+                                    <img src="./Assets/team-2-logo.jpg" alt="person" />
+                                </div>
+                                <div class="contentBox">
+                                    <h2>Amera Amanda</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. vero cumque?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="teamBox">
+                            <div class="marginDiv">
+                                <div class="imageBox">
+                                    <img src="./Assets/team-3-logo.jpg" alt="person" />
+                                </div>
+                                <div class="contentBox">
+                                    <h2>Amera Amanda</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto inventore placeat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="seemore">See More</button>
+                    </div>
+                </div>
             </div>
-            <div class="right-design-section">
-                <img src="./assets/design-1.jpg" alt="">
-            </div>
         </div>
-    </section>
-    <!-- Digital  -->
-    <section class="digital">
-        <div class="left-digital-section">
-            <img src="./assets/digital-1.jpg" alt="">
-        </div>
-        <div class="right-digital-section">
-            <h1>We Give Proven Digital <br>Marketing Strategies for <br>Our Clients</h1>
-            <p>Consultant working hard and we collaborate with <br>organizations that are keen transform the legal industry,<br> reach their goals and pursue their dreams.</p>
-        </div>
-        <button class="btn-right-digital-section">
-            Let's Talk
-        </button>
-    </section>
-    <!-- Judge  -->
-    <section class="judge">
-        <div class="left-judge-section">
-            <h1>People Will ALways judge <br> the book by it's cover.
-            </h1>
-            <p>
-                By connecting patients all over the world to the best <br>instructors,Healthycare helping individuals reach their <br>goals and pursue their dreams.
-            </p>
-            <button class="btn-judge-section">Let's Talk</button>
-        </div>
-        <div class="right-judge-section">
-            <img src="./assets/judge.jpg" alt="">
-        </div>
-    </section>
-    <!-- Team  -->
-    <section class="team">
-        <div class="left-team-section">
-            <h1>Meet our great <br>Creative Teams</h1>
-        </div>
-        <div class="right-team-section">
-            <p>Our journey began with a simple idea make a simpla <br>journey make this world more function.We collaborate <br>with organizations that are keen transform</p>
-        </div>
-    </section>
-    <!-- Team Logo  -->
-    <section class="three-team-logo">
-        <div class="team-logo">
-            <img src="./assets/team-1-logo.jpg" alt="">
-            <h1>Amera Amanda</h1>
-            <p>Introduction start procrasninate 2 hours get <br> to do work get to do work while eating.</p>
-
-        </div>
-        <div class="team-logo">
-            <img src="./assets/team-2-logo.jpg" alt="">
-            <h1>Lucas Podolski</h1>
-            <p>Introduction start procrasninate 2 hours get <br> to do work get to do work while eating.</p>
-
-        </div>
-        <div class="team-logo">
-            <img src="./assets/team-3-logo.jpg" alt="">
-            <h1>Leny Marrissa Nausution</h1>
-            <p>Introduction start procrasninate 2 hours get <br> to do work get to do work while eating.</p>
-
-        </div>
-        <button class="btn-logo">
-            See More
-        </button>
-    </section>
-    <!-- Footer  -->
+    </div>
+    <!-- Footer -->
     <footer>
-        <div class="content">
-            <div class="top">
-                <div class="logo-details">
-                    <img src="./assets/Logo.png" alt="">
-                </div>
-                <div class="media-icons">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="line">
-                    <hr>
-                </div>
+        <div class="container">
+            <div class="footerHead">
+                <img src="./Assets/Logo.png" alt="img" />
+                <ul>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-facebook-square"></i></li>
+                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-github"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                </ul>
             </div>
-            <div class="link-boxes">
-                <ul class="box">
-                    <li class="link_name">Our Products </li>
-                    <li><a href="#">The Support Suite</a></li>
-                    <li><a href="#">The Sales Suite</a></li>
-                    <li><a href="#">Support </a></li>
-                    <li><a href="#">Guide</a></li>
+            <div class="footerBottom">
+                <ul>
+                    <li>
+                        <h2>Our Products</h2>
+                    </li>
+                    <li>The Support Suite</li>
+                    <li>The Sale Suite</li>
+                    <li>Support</li>
+                    <li>Guide</li>
                 </ul>
-                <ul class="box box-2">
-                    <li class="link_name">Top Features</li>
-                    <li><a href="#">Ticketing System</a></li>
-                    <li><a href="#">Knowledge Base</a></li>
-                    <li><a href="#">Community Fourms</a></li>
-                    <li><a href="#">Help Desk Software</a></li>
+                <ul>
+                    <li>
+                        <h2>Top Features</h2>
+                    </li>
+                    <li>Ticketing System</li>
+                    <li>Knowledge Base</li>
+                    <li>Community Forumns</li>
+                    <li>Help Desk Softwares</li>
                 </ul>
-                <ul class="box">
-                    <li class="link_name">Resources </li>
-                    <li><a href="#">Product Support</a></li>
-                    <li><a href="#">Request Demo</a></li>
-                    <li><a href="#">Library</a></li>
-                    <li><a href="#">Business Blog</a></li>
+                <ul>
+                    <li>
+                        <h2>Resources</h2>
+                    </li>
+                    <li>Product Support</li>
+                    <li>Request Demo</li>
+                    <li>Library</li>
+                    <li>Busisness Blog</li>
                 </ul>
-                <ul class="box">
-                    <li class="link_name">Company</li>
-                    <li><a href="#">About US </a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Investors</a></li>
-                    <li><a href="#">Events</a></li>
+                <ul>
+                    <li>
+                        <h2>Company</h2>
+                    </li>
+                    <li>About Us</li>
+                    <li>Press</li>
+                    <li>Investors</li>
+                    <li>Events</li>
                 </ul>
-                <ul class="box input-box">
-                    <li class="link_name">Favourite Things</li>
+                <ul>
+                    <li>
+                        <h2>Favourite Things</h2>
+                    </li>
                     <li>For Enterprise</li>
                     <li>For Startups</li>
                     <li>For Benchmark</li>
-                    <li>For Small Business</li>
+                    <li>For Small Busisness</li>
                 </ul>
             </div>
         </div>
-
-        </div>
     </footer>
+    </div>
 </body>
 
 </html>
